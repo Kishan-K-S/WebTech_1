@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <div><img src="https://www.holidify.com/images/bgImages/BANGALORE.jpg" style="width: 100%;" alt=""></div>
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="desc" style={{fontSize: '20px'}} >
+          <p style={{textAlign: 'center'}}>The political hub of the region, Bengaluru is a world apart from the rest of the
+            state and in many ways India’s
+            most Westernized urban centre. Once a sleepy cantonment, the charming, verdant “Garden City” of just over 600,0000
+            people at Independence has been completely transformed by the technology boom into both a trendy, racy business
+            hub and a bustling, smog-choked megalopolis of nearly twelve million, perhaps the fastest growing city in India.
+          </p>
+        </div>
+        <section className="packages" id="packages">
+          <h1 className="heading">
+            <span>H</span>
+            <span>o</span>
+            <span>w</span>
+            <span className="space" />
+            <span>T</span>
+            <span>o</span>
+            <span className="space" />
+            <span>R</span>
+            <span>e</span>
+            <span>a</span>
+            <span>c</span>
+            <span>h</span>
+            <span className="space" />
+            <span>B</span>
+            <span>a</span>
+            <span>n</span>
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+          </h1>
+          <div className="reach">
+            <div className="card2">
+              <div className="reach1">
+                <h1>By Air:</h1>
+                <br />
+                <p>Bengaluru International Airport which is called as Kempegowda International Airport(KIA), is 35km Northeast
+                  of the city in Devanahalli which is located on Hyderabad road. It’s one of the most busiest airport in India
+                  and the most spacious in the country, with top-notch facilities. You can get into the city by Ola, Uber or any
+                  other private Airport Taxi or efficient a/c Vayu Vajra bus operated specially by BMTC wich runs fo KIA to
+                  major Bus Stations in te city. KSRTC also runs direct FlyBus services from the airport to Mysuru, Madikeri and
+                  Tirupati, plus an overnight service to Kundapur on the coast, via Mangaluru and Udupi. It's a very well
+                  connected International Airport which handles flights from various major carriers like Air India, Emirates,
+                  British Airways, Qantas, Singapore Airlines connecting major cities of the world and almost all the cities of
+                  out country.</p>
+              </div>
+            </div>
+            <div className="card2">
+              <div className="reach1">
+                <h1>By Rail:</h1>
+                <br />
+                <p>
+                  Bangalore is very well connected through Railways from various parts of our country. There are many railway
+                  stations in the city to handle the traffic of many trains, KSR bangalore being the main one located in the
+                  heart of the city, connecting almost all the major cities of India and many parts of karnataka as well, the
+                  other being Yeshwantpur Jn, Banaswadi, Bangalore Cantt., Krishnarajapuram stations. All the stations fall
+                  under SWR division. There is very well connectivity from these stations to all parts of the city as well, as
+                  all the stations are located in the city itself. Added to that, there are also many small stations like
+                  Kengeri, Devanahalli as well. One can take BMTC buses, hire autos and also cabs are affordable places. But one
+                  has to be careful about the traffic while moving in the city.
+                </p>
+              </div>
+            </div>
+            <div className="card2">
+              <div className="reach1" style={{height: '550px'}}>
+                <h1>By Bus:</h1>
+                <br />
+                <p>
+                  Bangalore is very well connected by Bus from all the major cities located around Bangalore. There is very good
+                  bus connectivity between Bangalore and many major cities like Chennai, Trivandrum, Pune, Mumbai, Ahmedabad,
+                  Vishakapatnam and also even cities like Ahmedabad, Jodhpur , Jalore etc. Many private buses also operate buses
+                  overnight and day services from Bangalore which include Volvo a/c, Sleeper and Non a/c servcies too which also
+                  give a flexibility of choosing boarding point from many points around the city. Major operators include VRL,
+                  SRS, Neeta, Jabbar ,etc.
+                  Also the buses operated by Karnataka RTC are also very well maintained and awarded as the best RTC in our
+                  country. It operates all types of services like the normal ones, a/c and Non a/c Sleeper servcies, Volvo
+                  services called as Airavata Club Class and newly introduced premium a/c sleeper servicecalled Ambari Dream
+                  Class. It operates buses to almost every corner of our state and many interstate services to Pondicherry,
+                  Chennai, Madurai, Kochi, Waynad, Panaji, Mumbai, Hyderabad, Vijaywada and many other major cities. To avoid
+                  crowding and help passengers buses plying to various regions are placed at many bus terminals in the city.
+                  Buses heading towards like Hubli, Maharashtra, Goa starts from Terminal 1 of Kempegowda Bus Station also
+                  called as Majestic located at the heart of the city. Buses towards Mangalore and other western parts starts
+                  from Terminal 2 of Kempegowda Bus Station. Those towards Andhra pradesh, Telangana and Tamilnadu starts from
+                  Shantinagar Bus Station. Buses towards Mysore, Waynad, Kerala starts from satellite bus station in Kengeri.
+                  Apart from these buses of other RTCs of Telangana, Maharashtra, Tamilnadu, Kerala also offer servcies to and
+                  fro Bangalore.
+                </p>
+              </div>
+            </div>
+            <div className="card2">
+              <div className="reach1" style={{height: '375px'}}>
+                <h1>By Road:</h1>
+                <br />
+                <p>
+                  Bnaglore being one of the most Important city of South India is very well conncted by roads. It is one of the
+                  major cities in the Golden Quadrilateral. The NH4 running between Mumbai to Chennai runs between the city, NH7
+                  the longest National Highway of India runing between Varanasi and Kanyakumari passes through the city. Also
+                  there are many other NHs, SHs, connecting Bangalore to surrounding cities. To avoid congestion in the city and
+                  avoid traffic, NICE Road has been been very beautifully around the city. The 6-lane roads are very well
+                  maintained which collects though give a great service. One can easily get out of the city or ply from one
+                  corner to other easily within no time. Being one of the busiest city in the world, traffic is one of the major
+                  problem. Many flyovers, main roads do exists in bangalore, but traffic becomes major problem specially during
+                  weekends and evenings. So, it's better to plan accordingly. Reaching Bangalore by road is not a great deal at
+                  all. Major well maintained roads to exists for reaching Bangalore from all all the surrounding places.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section></div>
+            </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

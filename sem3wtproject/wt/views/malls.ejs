@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="malls.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img
+      src="https://www.across-magazine.com/wp-content/uploads/2017/11/Iran-Mall_Tehran-775-440.jpg"
+      alt=""
+      style="width: 100%"
+    />
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+      class Container extends React.Component {
+        render() {
+          return(
+            <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Orion Mall, Rajaji Nagar, Bangalore</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Orion Mall is one of the well designed and perfectly planned malls in Bangalore. Be it, fashion, food, movies, Orion mall is the best place to satisfy all your needs. With over 150 brand outlets like Vero Moda, Van Huesen, Ed Gardy, etc, this shopping mall is a treasure to fashion lovers. 
+                <br /> <br />
+                It also has some amazing food courts, bowling, alleys, gaming zones and cafes add on to give you an amazing experience. Moreover, its lakeside promenade which makes it one of the attractive places to visit in Bangalore.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-220px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_767,h_392/https://zolostays.com/blog/wp-content/uploads/2019/09/Orion-Mall__1569416279_106.51.67.160.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Royal Meenakshi Mall,<br /> Bannerghatta Road</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  Royal Meenakshi Mall is a popular shopping mall located in Bannerghatta Road. To sort out all your household needs it has Hypercity, and fashion brands like Shopperstop, MotherEarth and many more.
+                  <br /><br />
+                  This mall fulfills all the needs of customers through its branded collections, dining and entertainment options. The major attraction of Royal Meenakshi Mall is Adventure Land 6D Dark House. If you are planning for a weekend to enjoy then this shopping mall is the place for you.
+                </p>
+              </div>
+            </div>
+            <div className="pic2"><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_767,h_510/https://zolostays.com/blog/wp-content/uploads/2019/09/Royal-Meenakshi-Mall__1569418196_106.51.67.160.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Mantri Square, Malleswaram</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>Having its metro station, Mantri Square Mall is located in Malleswaram, Bangalore. It is one of the largest malls in Bangalore which has more than 10,000 retail outlets shopping brands with all varieties to choose from.
+                  <br /> <br />
+                  This mall has everything for your entertainment such as Inox multiplex, food courts, restaurants, and many more. Above all, the major attraction of Mantri Mal is its gaming center- Amoeba which adds on more fun and makes this place a must-visit for you.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-200px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_730,h_486/https://zolostays.com/blog/wp-content/uploads/2019/09/Mantri-Square__1569419471_106.51.67.160.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>The Forum, Kormangala</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                Located in Koramangala, Forum Mall is one of the favorite shopping malls of all the Bangaloreans. It is said as the first full-fledge mall of Bangalore and is frequently being crowded by all college students and families who are residing nearby to Koramangala.
+                <br /><br />
+                It consists of 5 floors which is home to famous brands Benetton, Calvin Klein, Rattrap, etc. Moreover, the coffee shops and restaurants are quite lively yet peaceful. By all means, It is a one-stop destination for fun, food, and fashion.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-200px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://zolostays.com/blog/wp-content/uploads/2021/11/Forum_Vijaya_Arcot_Road_Entry-min_11zon.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Phoenix Market City, Whitefield</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Phoenix Market City is the biggest mall in Bangalore, If you are a shopping lover, then Phoenix Market City is the best place for you. Centrally located in Mahadevapra, Whitefiled this shopping mall has a lot to attract the young crowd. It has all the collection of the finest brands for shopping and dining.
+                <br /><br />
+                They also host multiple events like musical concerts, live shows, painting competitions, etc. It caters to the needs of different groups of people from budget-style shopping Big Bazaar to big brands like Zara, Lifestyle, etc.  
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-221.3px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_766,h_559/https://zolostays.com/blog/wp-content/uploads/2019/09/Phoenix-marketcity-BLR.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Garuda Mall, Magrath Road</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Garuda Mall is a multi-level shopping mall which is situated in Magrath Road, Bangalore. This mall offers you a wide variety of options from food, footwear, clothes, and beauty products. Some of the popular brands like Levis, Westside, Forever 21, and other popular brands can be found over here.
+                <br /><br />
+                Apart from all these, it offers you world-class cuisines, multiplexes, bowling alleys, and gaming zones. Moreover, the Scary house in this mall will give you a spine-chilling experience.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-222.5px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_758,h_442/https://zolostays.com/blog/wp-content/uploads/2019/09/front-view-of-garuda.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>The Collection UB City</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Located in Vittal Malaya Road, UB City Mall is considered as India’s first luxury malls. It has all the posh and classy things under one roof. With some of the world’s finest luxurious brands like Rolex, Burberry, Louis Vuitton, etc, this mall has the collection of more than 40 international brands to steal your heart.
+                <br /><br />
+                Also, there are so many options for dining and entertainment. You can try some international cuisines in Sanchez, Skyee, Shiro and many more. If you are a shopaholic then UB city is a must-visit place for you.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-220px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_767,h_532/https://zolostays.com/blog/wp-content/uploads/2019/09/21137-138505__1569492581_106.51.67.160.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+      </div>
+          )
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

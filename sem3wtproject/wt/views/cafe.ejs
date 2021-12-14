@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="malls.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img src="https://i1.wp.com/scng-dash.digitalfirstmedia.com/wp-content/uploads/2017/12/1206-bus-starbucks-china-web.jpg?w=620&crop=0%2C0px%2C100%2C9999px&ssl=1"
+        alt="" style="width: 100%">
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1" >
+              <h1 style={{fontSize: '30px', textAlign: 'center',marginTop:'-50px',marginLeft:'-200px'}}>Third Wave Coffee Roasters</h1>
+              <br />
+              <p style={{fontSize: '15px',marginTop:'200px',marginLeft:'-200px'}}>Third Wave Coffee Roasters take great pride in the premium quality of coffee beans used in making the delicious and extensive range of coffees. The coffee flavours also include plenty of options including fruit and the ever favourite chocolate making it one of the best cafes in Bangalore for the delicious cuppa. 
+                <br /> <br />
+                The menu doesn't fail to impress the visitors by having such a multitude of options like a special breakfast platter, Paninis, Bruschettas, quick nibbles and fried Oreos. 
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '50px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/21055982_510180505983789_1897172236679761959_o_20180521112425.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Matteo Coffea</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  Matteo Coffea wins the cup for serving the most unusual varieties of coffee. The desserts here are equally good with options like different flavours of doughnuts and muffins. The cosy armchairs and modern woodwork and just lighting make it an ideal place to chill with friends and catch up over a cup of coffee. 
+                  <br /><br />
+                  The rich taste of coffee is derived from the high-quality Arabica beans used by the chef. The menu is diversified with varied and delicious food items to pamper the visitors.
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-200px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/homepagebanner3_20190517163811.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Glen's Bakehouse</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>A pure delight for those with sweet tooths out there, Glen's Bakehouse has the most fantastic range of dessert including gooey almond mudpies, fresh cheesecakes and their speciality, the red velvet cakes.
+                  <br /> <br />
+                  The simple, home-like surrounding and humble staff leave a strong imprint on the visitors who mark this place as a must-visit amongst cafes in Bangalore. The Sunday brunches are a whole different tempting affair and if you get a chance to try that out, do not miss it.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-200px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/8965849119756174959166582351952884750352384n_20210129174704.png" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Cafe Noir</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                Cafe Noir is both a posh yet casual French cuisine place. The modest interior with dark wooden seating arrangements and the smell of delicious bakeries from the kitchen gives a lively look to the place making it stand out amongst the multitude of cafes in Bangalore.
+                <br /><br />
+                Every detail of the decor has been carefully chosen to represent French art and culture. You can also opt for the outside dining area on a cold, breezy day to make the most of it.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-200px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/12351543237241765209839143808942393873648049n_20210129173855.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>The Hole in the Wall Cafe</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>The Hole in the Wall Cafe is among the most loved cafes in Bangalore! With their extensive menu containing waffles, continental cuisines and breakfast options that are served throughout the day, the place has been receiving rave reviews or years.
+                <br /><br />
+                The cuisine offered here is diverse, and you can relish everything from Italian to American or just the delicious dessert. The interior has a raw touch to it, with polished wooden tables, twinkling lights and indoor plants adding to the decor!
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-200px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/11972941834548795979364226835008060667321643o_20210129174057.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Smoke House Deli</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Famous for its European cuisine and elegant, perfect white decor, Smoke House Deli is one of the premiere cafes in Bangalore. 
+                <br /><br />
+                The prices on the menu are relatively more expensive but the quality of drink and food definitely make up for it. The place serves a variety of delicacies including burgers, pasta, dessert, pancakes and exquisite cocktails.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-180px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/About-Smoke-House-Deli-1_20210129175050.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Justbe Resto Cafe</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Justbe Cafe proves that low-calorie, healthy organic food can be just as delicious as their more indulgent counterparts. You can find many Jain food items, as well as lactose-free and gluten-free dishes on the extensive menu of the Justbe cafe. The decor looks fresh with white hanging lights on the ceiling, paintings all across the room, and tall indoor plants to give the place an appealing look. 
+                <br /><br />
+                The entire cafe is dipped in shades of pastel, from the metal chairs to cotton-candy coloured seats. The cafe makes sure you have a good time by keeping a decent collection of books and many indoor games like Ludo for you to enjoy!
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-242px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/14883550_1821516028126883_1701460985751281253_o_20180521112234.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+            </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

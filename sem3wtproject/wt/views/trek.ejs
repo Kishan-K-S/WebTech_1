@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img
+      src="https://images.unsplash.com/photo-1545652985-5edd365b12eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJla3xlbnwwfHwwfHw%3D&w=1000&q=80"
+      alt=""
+      style="width: 100%"
+    />
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Skandagiri Hills</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Skandagiri is a perfect weekend getaway near Bangalore, preferred by most
+                adventure
+                and nature lovers.
+                Located in the Nandi Hill ranges, at a distance of about 68 kms from Bangalore, the historic hill
+                fort of
+                Skandagiri is also famous by the name of Kalwarebetta.
+                <br /> <br />
+                This hiking is a day long trip that is usually commenced after breakfast in the morning. The total
+                hiking distance is 8 kms moderate to tough difficulty level, which makes it important for the
+                participants to
+                be physically and mentally fit.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-220px'}}><img className="images" src="https://www.hotfridaytalks.com/wp-content/uploads/2018/12/d7cf33b6-5-reasons-to-visit-skandagiri-hills-this-weekend-640x480.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Savandurga Hills</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  At a distance of 48 km from Bangalore City Junction, 31 km from Ramanagara and 13 km from
+                  Magadi, The
+                  Savandurga hill is considered to be among the largest monolith hills in Asia. This is
+                  one of the popular one day trip from Bangalore for trekking.
+                  <br /><br />
+                  Savandurga consists of two hills, the Billigudda and the Karigudda. They serve as the base for
+                  pilgrims who
+                  come to visit the Savandi Veerabhadreshwara Swamy temple and Narasimha Swamy temple, situated at
+                  the base of
+                  the hills. The paths leading to these temples are quite uneven and thrilling.
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-220px'}}><img className="images" src="https://www.explorebees.com/uploads/savandurga%20hills%20(12).jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Devarayanadurga Hills</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>Devarayanadurga or DD Hills which translates to “the fort of God” is a
+                  tranquil
+                  hill
+                  station located near Tumkur district in the state of Karnataka. Situated at an elevation of 4000
+                  ft,
+                  Devarayanadurga is a perfect weekend getaway from Bangalore to live among the trees and visit
+                  the
+                  beautifully
+                  crafted temples.
+                  <br /> <br />
+                  This hill station is just the right place for trekkers as it provides with thrilling hills to
+                  trek on and
+                  explore. The hilltop is the perfect place to capture the picture-perfect beauty of the sun along
+                  with the
+                  scenic beauty.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-220px'}}><img className="images" src="https://www.explorebees.com/uploads/devarayanadurga%20hill%20(17).jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Makalidurga Hills</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                Makalidurga is a trek to one of the most enchanting places as this hill has
+                twinkling skies, a rich history, and a railway line running through the lush greenery of the hills.
+                Makalidurga is located only 60 kilometers away from Bangalore and 10 kilometers away from the town
+                of
+                Doddaballapur.
+                <br /><br />
+                The foothill is surrounded by a lake that is similar to the shape of the continent of South America,
+                while a
+                train runs through the lower half of the hills. Everything is amidst lush green grasses and stunning
+                views of
+                nature. This day-trek will never fail to rejuvenate your mind and nerves!
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-242px'}}><img className="images" src="https://indiahikes.com/wp-content/uploads/2016/08/Untitled-design-2.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Ettina Bhuja</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Ettina Bhuja (literally translates to Ox's Shoulder, in Kannada), is located
+                close
+                to the temple town of Dharmasthala.
+                About 250km from Bangalore, it makes for a good weekend trip away from the hustle and bustle of the
+                city.
+                Although it’s not a popular trail among trekkers, Ettina Bhuja offers scenic landscapes in its short
+                3 hours,
+                around 5km round-trip trek. At about 1300m altitude, this trail is perfect for beginners. The
+                trekking usually
+                starts at 6 AM and no later than 3 PM on any given day.
+                <br /><br />
+                It features a mosaic of grassland and forest patches in undulating terrain. One can find bamboo and
+                cane
+                plantations on the way to the top. If lucky, one might even sight sambar deer. Trek along this
+                pleasant
+                terrain to the sound of chirping birds in the lap of nature.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-282px'}}><img className="images" src="https://thetimesofkarnataka.com/assets/explore-all/hills-large/ettina-bhuja.webp" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Narayanagiri Hills</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Located 75 km from Bangalore, just past Ramanagara hills, Narayanagiri is
+                yet to
+                explored by many. With its stretch of grasslands, the hidden path through forests and challenging
+                steep cliff,
+                Narayanagiri is quite thrilling.The trek is 4 km one way where you’ll be walking through green
+                forest land for
+                a while before proceeding to bring your inner monkey out at the slopes.
+                <br /><br />
+                Once you’re done taking in the view, start your trek down for a dip in the dam and sign up for a
+                boat ride or
+                a kayaking experience before you head back to Bangalore. If you feel lazy to plan the trip and want
+                to camp
+                here at night, there are plenty of trekking groups in the city offering the experience as a package,
+                complete
+                with a barbecue experience even!
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-285px'}}><img className="images" src="https://1.bp.blogspot.com/-9goJLcgWs3A/XXyP_uWccNI/AAAAAAAC_C4/FM92JX7oJDgoxfLcx-oKagmE9KwC7VhJQCLcBGAsYHQ/s1600/Narayanagiri_trek_Jalamangala_Thimmappa_betta%2B%25282%2529.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Kunti Betta</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>It’s time to leave the road and take the trails toward rejuvenation with the
+                ultimate beauty of Kunti Betta. Trek up the hill and witness a sunrise that will renew the life in
+                you. With
+                its steep rock faces and a stone pillar on its summit,
+                Kunti Betta (950
+                m) is hard not to notice from here. A short drive from Pandavapura to the temple at the base, and
+                then a stair
+                climb and you are on the trail to Kunti Betta.
+                <br /><br />
+                With its challenging yet interesting trails, naturally sheltered summit and close proximity to the
+                Thonnur
+                lake (you can trek down to the lake for a dip), Kunti Betta is an excellent trek for both the
+                absolute novice*
+                hoping to take up serious trekking, as well as for the seasoned trekker wanting to do a more laid
+                back trek
+                over the weekend.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-285px'}}><img className="images" src="http://oneshorttrip.com/wp-content/uploads/2020/03/Kunti-Betta-23.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+                </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img
+      src="https://cdn.galaxy.tf/unit-media/tc-default/uploads/images/poi_photo/001/621/595/temple-street-4-3.jpeg"
+      alt=""
+      style="width: 100%"
+    />
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Commercial Street</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Commercial Street is the paradise for street shopping in Bangalore.
+                One of the most elite and busiest areas of the city, this street is famous for the wide clothing range that fluctuates from high, medium to cheap.
+                Not only clothes this place offers antiques at affordable prices, sports goods, and imitation jewelry.
+                <br /> <br />
+                The perk, as well as the corn of visiting the commercial street, is its massive crowd. Plus, the street is LOOOONGG and therefore, make sure you have the necessary gear to protect your feet from immense walking.
+                And, oh! Good bargaining skills are a Big yes, yes.
+                Timings:- Shops open at 10 AM and closes around 9:30 PM.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-241px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://zolostays.com/blog/wp-content/uploads/2019/07/Screenshot_20190730-161513__01-1.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Chickpet</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  If you are a silk lover then this street is for you!
+                  Chickpet is one of the oldest commercial districts of the city with a formidable history of 400 years. Bangaloreans swear by the quality and variety of saris and wholesale dress materials in this famous market.  
+                  <br /><br />
+                  Near to this, you can also visit Raja Market for gold and silver jewelry, Balepet to buy beautiful bangles and Nagarthapet to have a look at locally made musical instruments.
+                  Chickpet is crowded and commercial, and you will have to make way through small lanes and bylanes but trust us, it would all be worth it!
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-222.5px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://zolostays.com/blog/wp-content/uploads/2019/07/Screenshot_20190730-161832__01-1.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Jayanagar 4th Block</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>Head to Jayanagar 4th block to get everything that you need at one place as local vendors sell things ranging from pin to a rock.
+                  Need an excuse to pamper you or your loved ones?
+                  <br /> <br />
+                  Stroll these markets to lay your hands on some of the cool stuff you will find something for everyone. What’s more these people are charging a dime of things they are selling so hurry, visit the market today!
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-199px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_623,h_414/https://zolostays.com/blog/wp-content/uploads/2019/07/Screenshot_20190730-161141__01-1-1.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Brigade road</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                Brigade Road catches one’s attention and is one of the cheapest places to shop in Bangalore. This commercial center is doted with shops and stores that sell clothes, shoes, spices, items that are handcrafted, pieces of antique jewelry and much more.
+                <br /><br />
+                Brigade Road is the local favorite when it comes to getting the best at seemingly reasonable prices. If your interest lies in ancient jewelry, decor items for the house at a reasonable price then Brigade road is best for you.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-200px'}}><img className="images" src="https://im.whatshot.in/img/2020/Jan/brigade-1578050272.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>MG Road</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>MG road is famous for its sarees and is considered the cheapest market where you can bargain freely and can get things at a reasonable price. Prasiddi and Deepam silks dominate the stores here and one can also spot some good handicraft items at this market.
+                <br /><br />
+                MG road is buzzing until midnight, after which the bars and restaurants need to shut shop. The Best time to visit this market is night time.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-200px'}}><img className="images" src="https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Brigade%20Road.jpg?itok=wSanwEQZ" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Avenue Road</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>If you are a book worm then this place is for you as here you will get second books. From textbooks to novels to cookbooks to books on architecture, the hawkers here are sure to give you the best deal.
+                <br /><br />
+                Most of the books are in excellent condition, and if you are lucky, you might even find some rare edition of your favorite novel here! It is also the place to buy school and college textbooks at cheap rates. Not just books you can even purchase decorative stuff, jewelry, gift wrappers and stationary.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-222.5px'}}><img className="images" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_531,h_301/https://zolostays.com/blog/wp-content/uploads/2019/07/Screenshot_20190730-162625__01-1.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>SP Road Electronic Market </h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Have you been looking for a place which sells affordable and a variety of electronic goods?  If yes, then we have found the perfect place for you to shop from! SP road in Bangalore has a narrow but long stretch of stores, all of which deal in electronic goods.
+                <br /><br />
+                You'll find anything from spare parts to the latest gadgets, home appliances, mobile phone, and much more! Also, if you have a broken laptop or phone which you need to get repaired in absolutely pocket-friendly rates, you would pretty much find the solution here!
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-242px'}}><img className="images" src="https://im.whatshot.in/img/2019/Mar/image-9-1-1553249516.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+      </div>
+                </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img
+      src="https://cms.qz.com/wp-content/uploads/2017/08/bangalore1-reuters-traffic-moves-along-a-road-in-the-southern-indian-city-of-bangalore-december-14-2005.jpg?quality=75&strip=all&w=900&h=900&crop=1"
+      alt=""
+      style="width: 100%"
+    />
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Wonder La</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Situated at a distance of 34 km away from Bangalore city, Wonderla
+                Amusement Park is the perfect gateway to spend a fun-filled day with your friends and family. Head
+                towards the large theme park and a water park and indulge in various exciting activities like the
+                plethora of rides and slides etc.
+                <br /><br />
+                Featuring a wide variety of attractions including 60+ land and water rides, a musical fountain and
+                laser shows, and a virtual reality show, your visit will be a non-stop fun ride. Gear up for a day
+                outing full of thrills and adventure by visiting the amazing and fun-filled Wonderla Amusement Park.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-241px'}}><img className="images" src="https://i.pinimg.com/originals/8a/cf/44/8acf44e07ea18b2a00c3a197c8ee9f1b.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Snow City</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  Snow City is one of the main tourist attractions in Bengaluru city which kids and adults enjoy
+                  alike. Sprawling across an area over 1200 sq.ft, it is situated in one of the well known
+                  localities of Bangalore, J.C Nagar. Opened in 2012 at Fun World Complex, Snow city is one of the
+                  largest indoor snow parks in South India.
+                  <br /><br />
+                  Snow city, Bangalore is an escapade from the scorching summers and a whole new experience from
+                  what we come across generally. Here one can get a feel of chilling winter all around the year,
+                  regardless of the season outside. If you are someone who loves snow but visiting a hill station
+                  seems far fetched then Snow city is the perfect destination to unwind yourself. At Snow City,
+                  one can have a ball while playing in snow, which is edible and eco-friendly to one’s delight.
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-283px'}}><img className="images" src="https://traveljee.com/wp-content/uploads/2016/01/Snow-City-Bangalore.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Jawaharlal Nehru Planetorium</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  Jawaharlal Nehru Planetarium in Bangalore is a popular attraction in the city that is
+                  administered by the Bangalore Association for Science Education (BASE). From how stars form to
+                  how planets evolve, from the origin of
+                  life to human's space expeditions, from how gravity works to how eclipses happen - the
+                  planetarium explains it all. The Sky Theatre is its main attraction in this place.
+                  <br /><br />
+                  Mainly it facilitates the educational institutes which can bring their students here
+                  for an academic excursion with prior booking. The children get to learn things outside the
+                  classrooms and also enjoy a day out with friends. The place is a fascinating hub of knowledge
+                  but not in a textbook manner; but rather in a more intriguing and practical way which explains
+                  the concepts much better than theory.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-283px'}}><img className="images" src="https://d19gb5k9ejx8w0.cloudfront.net/uploads/2014/05/nehruplanetarium-cover-photo.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Lalbagh</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                A sprawling garden situated in a 240 acres piece of
+                land in the heart of the city, Lalbagh houses India’s largest collection of tropical plants and
+                sub-tropical plants, including trees that are several centuries old. Exhibits like the Snow White
+                and the seven dwarfs, and a topiary park, an expansive lake, a beautiful glasshouse modelled around
+                the Crystal Palace in London adorn the park giving it a surrealistic atmosphere.
+                <br /><br /> A watchtower
+                perched on top of a 3000 million years old rocky outcrop (which is a National Geological Monument),
+                built by Kempegowda, the founder of Bengaluru also adorns the picturesque garden.
+                Lalbagh is located 7 kms south of the city centre (Majestic area) and 38 kms from the Bengaluru
+                airport.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-262px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_154851008_20200123162547_20200123162603.png" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Nandi Hills</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Nandi Hills also called Nandi Durga is arguably the most popular weekend
+                destination for the city crowd of Bengaluru. The rivers North Palar, South Pennar, Chitravathi,
+                Arkavathi and Papaghni take their birth at Nandi Hills. It has been under the control of Paleyagars
+                of Chikkaballapura, Tipu Sultan, Marathas and finally the British. It was called ‘Nandigiri’ in the
+                ancient inscriptions.
+                <br /><br />The bracing air and serene environs of Nandi Hills, perched at an altitude of
+                4850 feet above sea level, provided the British and Tipu Sultan with an idyllic summer retreat. The
+                weather at the hills is pleasant throughout the year and here, you can take leisurely strolls.
+                Adventure sports lovers can try their hand at parasailing.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-260px'}}><img className="images" src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/60zv3p7hoj9ihglp7igcbaha2zi0_1575010669_shutterstock_652879903.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Cubbon Park</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Cubbon Park Bangalore boasts of a wide array of exquisite floras.
+                Officially, Bangalore Cubbon Park is known as Sri Chamarajendra Park. Spread across an area of about
+                250 acres, it has about 6000 plants which can be divided into almost 68 varieties and 96 species.
+                Along with exotic nature, various statues which have been installed here also attract visitors. Some
+                of these are statues of Mark Cubbon, K Sheshadri Iyer, Queen Victoria, King Edward VII, and of Sri
+                Chamarajendra Wodeyar.
+                <br /><br />
+                Cubbon Park in Bangalore is an ideal picnic spot where families or groups of friends can come and
+                spend some quiet time amid its lush landscapes. This park also houses a few buildings, motor-able
+                roads and well maintained paths for morning and evening walkers. Not only a place for morning
+                walkers and picnickers, Cubbon Park is a perfect place for naturalists, who want to study varied
+                kinds of flora as well.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-305px'}}><img className="images" src="https://www.makemytrip.com/travel-guide/media/dg_image/bangalore/Cubbon-Park-Samuel-Jacob-Flickr-Creative-commons.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Ulsoor Lake</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Located on North Eastern part of the city, Ulsoor Lake is quite close to the
+                happening M.G. Road of Bangalore. One of the popular attractions of Bangalore, the credit of
+                construction of this lake goes to the Kempe Gowda II.
+                Sir Lewin Bentham Bowring, the then Commissioner of Bangalore led to the construction of this
+                beautiful body of water. <br /><br />
+                One of the few big lakes of Bangalore, Ulsoor lake is also one of the
+                oldest lakes in the city. Once covered with dense forest, it is now spread across an area of
+                approximately 1.5 kms and has 2 springs which are now covered with heavy silt.
+                Once a popular recreational site of the Mysore Wadiyars, this lake is still quite popular amongst
+                tourists who wish to spend a few quiet moments amidst the refreshing nature.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-305px'}}><img className="images" src="https://i1.wp.com/cushtravel.com/wp-content/uploads/2018/10/bangalore-ulsoor-lake-1.jpg?fit=696%2C391&ssl=1" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Bannerghatta National Park</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Bannerghatta National Park which is approximately 21 km from the city of
+                Bangalore presents tourists with perfect weekend options. Excitement of
+                seeing the bravest of all the animals, tigers, from few inches of distance and the pleasure of
+                looking at colourful and exotic plants is unexplainable. From families with children to adventure
+                lovers, every one has something
+                of their choice here.
+                <br /><br />
+                Once at the national
+                park, you will have more than one option to keep yourself engaged. Along with National park,
+                Bangerghatta has an Aquarium, a Zoo, Children's park, Crocodile Farm, Snake park, Prehistoric
+                animals park and a Museum.
+                The overall beauty of the park gets a boost from the Suvarnamukhi stream, originating in the
+                Suvarnamukhi hills and runs through the park.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-282px'}}><img className="images" src="https://bangalore247.in/wp-content/uploads/2020/09/Bannerghatta-National-Park.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+                </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

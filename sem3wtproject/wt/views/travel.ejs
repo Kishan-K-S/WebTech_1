@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <div><img src="https://www.connectpackers.com/blog/wp-content/uploads/2020/09/bangalore.jpg" style="width: 100%;"
+        alt=""></div>
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="desc" style={{fontSize: '20px'}} >
+          <p style={{textAlign: 'center'}}>The political hub of the region, Bengaluru is a world apart from the rest of the
+            state and in many ways India’s
+            most Westernized urban centre. Once a sleepy cantonment, the charming, verdant “Garden City” of just over
+            600,0000
+            people at Independence has been completely transformed by the technology boom into both a trendy, racy
+            business
+            hub and a bustling, smog-choked megalopolis of nearly twelve million, perhaps the fastest growing city in
+            India.
+          </p>
+        </div>
+        <section className="packages" id="packages">
+          <h1 className="heading">
+            <span>M</span>
+            <span>o</span>
+            <span>v</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+            <span className="space" />
+            <span>A</span>
+            <span>r</span>
+            <span>o</span>
+            <span>u</span>
+            <span>n</span>
+            <span>d</span>
+            <span className="space" />
+            <span>B</span>
+            <span>a</span>
+            <span>n</span>
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+          </h1>
+          <div className="reach">
+            <div className="reach1">
+              <h1>BMTC Buses:</h1>
+              <br />
+              <p>
+                BMTC stands for Bangalore Metropolitan Transportation Corporation. It is one of the best city bus
+                service provider of our Nation.
+                Its operated by the Government of karnataka, which provides many type os services to each and every
+                corner of Bangalore at very very cheap cost. BMTC drivers are ones among the best drivers of India,
+                moving like pros in the heavy traffics in Bangalore. Currently the volvo service except the Airport
+                service are shut down due to Covid. It operates buses round the clock and even frequency is adjusted
+                as per the demand. One can move around Bangalore to any corner at ease using these buses. But
+                frequency is not very high on the places with less demand and crowd.
+                One can easily check the live timings and availability on Google Maps and plan your trips
+                accordingly.
+              </p>
+            </div>
+            <div className="reach1">
+              <h1>NAMMA METRO:</h1>
+              <br />
+              <p>
+                Bangalore Metro, locally known as Namma Metro (meaning 'Our Metro' in Kannada), serves the city of
+                Bangalore. Two lines currently operate from North to South and from East to West. This has became
+                the lifeline of Bangalore people due to it's cheaper cost, very less time to travel as well as
+                comfort. The multiple stations around the line helps commuters to reach their station on daily
+                basis. It helps to connect major places like Vidhana Soudha, Chinnaswamy Stadium, majestic, MG Road,
+                KR Market and many such others. Also many new other lines are under construction, and if that
+                finishes then almost all the places of Bangalore can be covered using Metro which helps to save to a
+                very large extent. They also provide great facilities like parking space, smart car and many others
+                which helpes the people to travel safe and efficiently.
+              </p>
+            </div>
+            <div className="reach1">
+              <h1>CABS and AUTO RICKSHAWs:</h1>
+              <br />
+              <p>
+                Cabs and Rickshaws play a very important role of transportation in Bangalore. They become very
+                necessary to commute long as well as short distances where no public transportation is available.
+                Many private cab services like Ola, Uber, Meru and many others provide best service to and fro KIAL.
+                Even the ones run by KSTDC also provide better service. They can be easily booked by a tap in their
+                respective apps and are very convinient to travel around Bangalore. Even rickshaws can be booked
+                under Ola,Uber apps and can be used to move around Bangalore. But one has to be very careful with
+                the Rickshaw drivers as new comers are easily fooled by them, so it's better to use Ola or Uber for
+                convenient transportation.
+              </p>
+            </div>
+            <div className="reach1">
+              <h1>Self Driven Bikes and Cars:</h1>
+              <br />
+              <p>
+                If you are planning to visit Bangalore in a group and wish to visit lot of places here and there,
+                then one would suggest them to save their time and money. many bike firms like Bounce, Royal
+                Brothers, Roadpanda, Vogo and car firms like Zoomcar, Drivezy, Vroom and many others rent vehicles
+                on
+                time basis and charge accordingly. They are also very good to use and easily availbale. But its
+                better to book in advance and it difficult to get one during weekends. They can aslo be booked with
+                their sites and apps. It's mandatory to have valid license prior to booking.
+              </p>
+            </div>
+            <div className="reach1">
+              <h1>Bangalore Rounds:</h1>
+              <br />
+              <p>
+                The BMTC tourist bus is covered with a beautiful painting that consists of all the destination
+                location. You can easily differentiate the tourist bus in Bangalore with other normal buses. There
+                is a short view of the beautiful city’s prominent architecture includes the Palace of Bangalore,
+                Vidhana Soudha, Museum, Cubbon Park, Gavi Gangadheswra Temple and many more.
+                There are currently only seven running tourist buses in Bangalore, and all of them are fully
+                air-conditioned. All these seven buses start from seven different locations daily. All the locations
+                are divided so well that it will cover the entire city and help the tourist explore popular areas.
+              </p>
+            </div>
+          </div>
+        </section></div>
+                </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

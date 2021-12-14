@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    complete responsive tour and travel agency website design tutorial
+  </title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <!-- header section starts  -->
+
+  <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+    <nav class="navbar">
+      <a href="/">Home</a>
+      <a href="/hotels">Do & See</a>
+      <a href="/pub">Pub&Night-Life</a>
+      <a href="/shopping">Shopping Spots</a>
+      <a href="/trek">Restaurants</a>
+      <a href="/travel">Malls</a>
+      <a href="/trek">Trekking Spots</a>
+      <a href="/feedback">Feedback</a>
+    </nav>
+    <script>
+      
+    </script>
+    <div class="icons">
+
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+  </header>
+
+  <!-- header section ends -->
+
+  <!-- login form container  -->
+
+  <div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="http://localhost:3000/" method="POST">
+      <h3>login</h3>
+      <input name="name" type="text" class="box" placeholder="enter your name" />
+      <input name = "email" type="password" class="box" placeholder="enter your email" />
+      <input type="submit" value="login now" class="btn" />
+      <!-- <input type="checkbox" id="remember" /> -->
+      <!-- <label for="remember">remember me</label> -->
+      <!-- <p>forget password? <a href="#">click here</a></p> -->
+      <p>don't have and account? <a href="http://localhost:3000/signup">register now</a></p>
+    </form>
+  </div>
+
+  <!-- home section starts  -->
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Adventure is Worthwhile</h3>
+      <p>Discover New Places with us, Adventure Awaits</p>
+      <!-- <a href="#" class="btn">discover more</a> -->
+    </div>
+
+    <div class="controls">
+      <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+      <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+  </section>
+
+  <!-- home section ends -->
+
+  <!-- book section starts  -->
+
+  <section class="book" id="book">
+    <h1 class="heading">
+      <span>A</span>
+      <span>b</span>
+      <span>o</span>
+      <span>u</span>
+      <span>t</span>
+      <span class="space"></span>
+      <span>B</span>
+      <span>a</span>
+      <span>n</span>
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>o</span>
+      <span>r</span>
+      <span>e</span>
+    </h1>
+    <!-- slide show -->
+
+
+    <div class="abot">
+      <p style="font-size: 200%; text-align: center ;">Bangalore or Bengaluru, also known as the Silicon valley of India, will greet you with dreamy weather, Carnatic
+        fusion melodies, a signature breakfast of masala dosa and filter coffee, and notorious traffic. Bangalore serves
+        as a comfortable cohabitation of tradition and modernisation that can be seen throughout the places to visit in
+        the city, with throngs of vibrant Kannada temples coexisting with budding start-ups. Travel to Bangalore city
+        for the lively cafes, quirky shops and a fascinating contemporary culture. Visit classic attractions such as the
+        Bangalore castle known for its Tudor-style architecture and Tipu Sultan’s summer palace that dates back to the
+        17th century. 
+        <br><br>To get your art fix in Bengaluru, you could head to the fascinating Venkatappa Art Gallery. One of
+        the more popular things to do in Bangalore city is to take a walk through the green spaces of the 19th century
+        old Cubbon Park, that were once the reason why Bangalore was known as the Garden City. Bengaluru’s Vidhana
+        Soudha, the Neo-Dravidian granite palace is also must visit places for the architecture aficionados. Tourists
+        can head to Bengaluru’s much revered Mavalli Tiffin Rooms (MTR), for authentic south Indian food and Toit’s, the
+        brick-walled microbrewery for a cold beer.</p>
+    </div>
+
+
+
+
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="https://www.businessinsider.in/photo/51525598.cms" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://i.ytimg.com/vi/cTntv7fBzVw/maxresdefault.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://hindi.nativeplanet.com/img/2018/05/vidhansouda-1526623381.jpg" style="width:100%">
+      </div>
+
+      <!-- <a class="prev" onclick="plusSlides(0)">&#10094;</a> -->
+      <!-- <a class="next" onclick="plusSlides(0)">&#10095;</a> -->
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- book section ends -->
+    <h1 class="heading">
+      <span>M</span>
+      <span>a</span>
+      <span>p</span>
+      <span class="space"></span>
+      <span>o</span>
+      <span>f</span>
+      <span class="space"></span>
+      <span>B</span>
+      <span>a</span>
+      <span>n</span>
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>o</span>
+      <span>r</span>
+      <span>e</span>
+    </h1>
+    <br><br>
+    <div class="map" style="justify-content: center;">
+      <img
+        src="https://ctl.s6img.com/society6/img/A5Y1QsaVARKp1jcaM42uKLcCxq8/w_1500/prints/~artwork/s6-0054/a/22861895_6001188/~~/bangalore-city-map-prints.jpg"
+        style="
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+        " alt="">
+    </div>
+    <!-- packages section starts  -->
+    <br><br>
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>T</span>
+        <span>r</span>
+        <span>a</span>
+        <span>v</span>
+        <span>e</span>
+        <span>l</span>
+        <span class="space"></span>
+        <span>G</span>
+        <span>u</span>
+        <span>i</span>
+        <span>d</span>
+        <span>e</span>
+      </h1>
+      <br><br>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/p-1.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Do & See</h3>
+            <p>
+              Click below to visit the best places of Bangalore
+            </p>
+
+            <a href="/things" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="https://curlytales.com/wp-content/uploads/2019/09/skyyee-e1569256968628.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Pub & Night Life</h3>
+            <p>
+              Click below to visit the best things to do in Bangalore
+            </p>
+  
+            <a href="/pub" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://media.istockphoto.com/photos/bangalore-skyline-india-picture-id519406045?k=20&m=519406045&s=612x612&w=0&h=Om9Hn0pyqtFNgnw0UYEVCwcszR-BQMvcT8r7rHWghI4="
+            alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Restaurants</h3>
+            <p>
+              Click below to visit the best places to taste in Bangalore
+            </p>
+            <div class="stars">
+ 
+            </div>
+            <!-- <div class="price">$90.00 <span>$120.00</span></div> -->
+            <a href="/hotels" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/08/17/file7dvbwxf91a1vhuw61sa-935630-1629184004.jpg"
+            alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Cafes & Dine-Ins</h3>
+            <p>
+              Click below to visit the best places to have great coffee and tasty food in Bangalore
+            </p>
+
+            <a href="/cafe" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/VR_Bengaluru_Facade.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Malls</h3>
+            <p>
+              Click below to visit the best and luxurious Malls of Bangalore
+            </p>
+
+            <a href="/malls" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-6.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Places of Historical Interest</h3>
+            <p>
+              Click below to visit the best places which are worth visiting Bangalore
+            </p>
+            <a href="/historical" class="btn">Visit</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="box-container">
+        <div class="box">
+          <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/05/Cover2.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Trekking Spots</h3>
+            <p>
+              Click below to visit the best places to trek of Bangalore
+            </p>
+            <a href="/trek" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="https://news.railanalysis.com/wp-content/uploads/2019/04/DhQFR81XkAAKrvd.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Travel Info</h3>
+            <p>
+              Click below to visit the complete information about moving around Bangalore
+            </p>
+
+            <a href="/travel" class="btn">Visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://d24chjhol3kq77.cloudfront.net/trbusiness.com/wp-content/uploads/2019/08/Bangalore-Airport-shot-for-web.jpg"
+            alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> How to Reach</h3>
+            <p>
+              Click below to visit the how to reach Bangalore
+            </p>
+            <div class="stars">
+
+            <a href="/reach" class="btn">Visit</a>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br>
+
+
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>

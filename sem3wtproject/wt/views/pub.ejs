@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img src="https://pediaa.com/wp-content/uploads/2020/12/Difference-Between-Pub-and-Bar_1.jpg"
+        alt="" style="width: 100%;">
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>ABC</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>ABC or Arbor Brewing Company is not new to the world of brewing beer. The
+                place offers creative American pub food and incredible variants in handcrafted beer. ABC at
+                Bangalore sticks to its American ways and you step into a western tavern styled premise with
+                all-wooden interiors. This is definitely the best place to hang out if you have been missing the
+                Oktoberfest!
+                <br /><br />
+                The warm and cozy ambiance of the place attracts hundreds of guests on weekends but if you want a
+                cozy space for your group, make sure that you come early. Weekdays are your best bet to fall in love
+                with the ambiance sans the crowd. It is one of the best pubs in Bangalore with a dance floor.
+                ABC offers a full bar, DJ, Elevator, valet parking, outdoor seating and a smoking area
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-283.25px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--fPFARUOX--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/765/original/1465813538_10387414_903090596392101_7569675369257989329_n.jpg.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>TOIT</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  TOIT is the first suggestion you would get when you ask about the best beer in the city. There
+                  are loads of varieties in draft beer and some unique favors including banana draft, rice draft
+                  and more. To complement the bee is their amazing food menu, each of which has a distinct favor.
+                  The ambience is cozy and depending on the crowd, you can get a high chair. TOIT brews its own
+                  beer and this makes the place a favorite among aficionados.
+                  <br /><br />You will get a feel of a European
+                  pub and a very helpful staff. It is one of the most popular pubs in Bangalore without an entry
+                  fee.
+                  TOIT serves Italian, American and Pizza. Don’t miss their beefy loaded potatoes, mixed meat
+                  pizza and chicken wings. The Tin-Tin beer has been a long time favorite among visitors.
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-285px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--c76EYIrD--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/771/original/1502434278_image-40.jpeg.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>District 6</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  District 6 is an upscale micro-brewery that offers both fine dining and classic brews. If you
+                  have been searching for a low profile, quaint but ambient place to have a glass of beer with
+                  your dinner, this is it.
+                  <br /><br />
+                  It a place that is meant for conversations, be it with your partner or with a small group of
+                  friends. The restaurant also offers great music in a laid back ambience. If you are a music
+                  lover of any sort, be here.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-198px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--HVYTyEDx--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/782/original/1465815006_3.jpg.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>F-Bar</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                The F-Bar is the newest lounge bar in the city and offers a cutting edge, contemporary design that
+                has been immaculately fused with a touch of the old world. The property spreads across 17,000 sqft
+                and has been built around folia that age somewhat about 100 years. With natural light seeping into
+                the lounge area, you can expect something special.
+                <br /><br />
+                The FBar is being deemed as the longest bar of South India and is a must visit. Another special
+                highlight of the FBar is the cascading waterfall on one of the sides and this act as a ramp space
+                for performance art and fashion shows. It’s a fancy setup but surely will blow your mind. Lastly,
+                the place also offers a very authentic food experience from across the globe.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-280px'}}><img className="images" src="https://i.pinimg.com/originals/0b/2b/f8/0b2bf88e7cc72e966b27eab3462abfc2.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>La Casa</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>La Casa is a place that is known for its highly authentic cuisine. The
+                ingredients that you find in the food here is completely natural and this greatly affects the taste.
+                The bar is also accompanied by a DJ that dishes out some great music.
+                <br /><br />
+                Take a sip of their signature cocktail and head to the dance floor with your partner or friends.
+                This is one of the most popular pubs in Bangalore for couples. La Casa is a very happening place if
+                you have been looking for fun. The best part about the place is that the menu is quite
+                pocket-friendly and also features a section for sea-food. The light hearted ambiance lifts up your
+                mood in no time!
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-242px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--DjM_gnkV--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/993/original/1465827918_603188_412206658843589_2109657246_n.jpg.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>The Black Rabbit</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>The Black Rabbit comes as a very innovative food and dining space. The
+                interiors are out of the box and you will immediately walk into warmth that makes up for your bad
+                mood. There is a central communal table and smaller seating in many permutations across the spread
+                of the restaurant.
+                <br /><br />
+                The service in particular is stated to be exemplarity. The food and drinks are competitively priced
+                and you can hope to have a good time with your friends here.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-200px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--ZH3DmK_P--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/115/509/original/1502436518_black-rabbit-3.jpg.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Hakuna Matata</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Hakuna Matata has been a fairly new addition to the Bangalore nightlife but
+                it has already made quite of an impact. The place has conveniently been a place for executives to
+                unwind after work.
+                <br /><br />
+                Hakuna Matata is open all day and you can hope to both work and play in it's fun ambiance. The urban
+                hangout has been particularly designed to keep you connected. It has always been a preferred
+                gathering for artists.Hakuna Matata serves an extensive range of Continental and Asian dishes along
+                with a wide ray of drinks and cocktails. Do try out the seafood too.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-242px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--a32JoTpY--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/115/516/original/1502436697_2016530_84325_c933daec1171988a863583aa1952bcd5.jpg.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Gilly's Restobar</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Gilly’s Restobar is an upscale micro-brewery that offers both fine dining
+                and classic brews. If you have been searching for a low profile, quaint but ambient place to have a
+                glass of beer with your dinner, this is it. It a place that is meant for conversations, be it with
+                your partner or with a small group of friends.
+                <br /><br />
+                The restaurant also offers great music in a laid back ambience. If you are a music lover of any
+                sort, be here.
+                Gilly’s Restobar kitchen serves North Indian, Continental and Chinese dishes. Do try out their
+                unique salads.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-220px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--maA44P7n--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/115/520/original/1502436838_gillys-bg-1.jpg.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>The Bierre's Club</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Centrally located in Bangalore, Biere Club is another micro brewery and you
+                can expect a range of authentic and locally brewed drinks. Its wheat beer has been a particular
+                favorite for more than a decade now and has somewhat acquired a legendary status.
+                A high degree of sophistication goes into beer brewing and you can also expect a wide serving of
+                food platters too. The Biere Club would also be a perfect stop if you are with your family. As
+                understood, the place gets a very decent laid back crowd that loves its food and drinks. The rustic
+                ambiance is complimented by soft music in the background and a very friendly staff.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-220px'}}><img className="images" src="https://images.thrillophilia.com/image/upload/s--RX42CFkS--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/087/809/original/1465816434_2.jpg.jpg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+                </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

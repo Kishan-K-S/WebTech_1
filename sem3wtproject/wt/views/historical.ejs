@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style_updated.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+      <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/hotels">Do & See</a>
+        <a href="/pub">Pub&Night-Life</a>
+        <a href="/shopping">Shopping Spots</a>
+        <a href="/trek">Restaurants</a>
+        <a href="/travel">Malls</a>
+        <a href="/trek">Trekking Spots</a>
+        <a href="/feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br />
+    <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Bidar.jpg"
+        alt="" style="width: 100%;">
+
+
+    <!-- <h1 style="text-align: center">Insert a good pic of the content</h1> -->
+    <br /><br /><br /><br /><br /><br />
+    <div id="mydiv" style="width: 100%; height: 100%"></div>
+    <script type="text/babel">
+        class Container extends React.Component {
+          render() {
+            return(<div>
+                <div>
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Bangalore Fort</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>The silicon valley of India, Bangalore adorns the majestic Bangalore Fort,
+                also known as Tipu Sultan’s fort that stands testament to the rich history of the Kingdom of Mysore
+                and is a powerful edifice of Indian history. The fort takes you through the different architecture
+                styles, their influences and evolution and has its own share of history engraved deeply in the
+                fascinating stone structure.
+                <br /><br />
+                It represents the architectural creativity and brilliance of the Mysore rulers and is one of the
+                most popular monuments in India, that still does not fail to mesmerize the spectators.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-240px'}}><img className="images" src="https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2018/12/bangalore-palace.p.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Tipu's Summer Palace</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  This palace was spectacular, being built completely from teak. To see a two-storey building such
+                  as this built entirely from wood and so demonstratively decorated and carved was truly something
+                  else.
+                  <br /><br />
+                  Whilst most of the fort is in a state of ruin, the palace has been quite well preserved. The
+                  columns are plentiful and sit under such beautiful carved archways. Stone staircases lead
+                  upstairs to a central open area, used as the durbar by the Sultan to receive his special guests.
+                </p>
+              </div>
+            </div>
+            <div className="pic2" style={{marginTop: '-218px'}}><img className="images" src="https://www.beerandcroissants.com/wp-content/uploads/2018/09/Bengaluru-Tipus-summer-palace-front.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Bangalore Palace</h1>
+              <br />
+              <div>
+                <p style={{fontSize: '15px'}}>
+                  Folks who seek to experience the classic royal charm of Bangalore can head over to one of its
+                  older landmarks, the sprawling Tudor-inspired estate of Bangalore Palace. The palace was built
+                  in the year 1887 by King Chamaraja Wadiyar and is today open to the public who come to witness
+                  the lavish and elegant splendour of one of South India’s most enduring dynasties.
+                  <br /><br />
+                  The Palace is home to many renowned 19th and 20th century paintings, including those by Raja
+                  Ravi Varma, one of India’s most famous painters. There is a large collection of photographs that
+                  chronicle the different generations of the Wadiyar dynasty along with offering a glimpse into
+                  the evolution of Bangalore over the last century.
+                </p>
+              </div>
+            </div>
+            <div className="pic1" style={{marginTop: '-282px'}}><img className="images" src="https://karnataka.b-cdn.net/wp-content/uploads/2014/03/bangalore-palace-front-view-wiki.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Vidhana Soudha</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>
+                Influenced by the House of Commons in London, the Vidhana Soudha is spread over 60 acres of land. It
+                is popularly known as the building that houses the State Legislature Assembly and the Secretariat of
+                Karnataka. The foundation stone of Vidhana Soudha was laid down by the first Prime Minister of
+                India, Pandit Jawaharlal Nehru, in 1951.
+                <br /><br />
+                It has been described by many dignitaries in many different ways over the years. Inaugurated on
+                October 10, 1956, Vidhana Soudha is the original seat of power in the state of Karnataka. The
+                construction of such a building was due to the immense amount of nationalist sentiments that were
+                growing amongst people soon after India gained its independence. During that time, the
+                administrative offices were based out of Attara Kacheri, built by the British in 1868.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-282px'}}><img className="images" src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/09/23/Pictures/74th-independence-day-celebrations_a464234e-fdaf-11ea-b6be-dd713e54f208.jpg" alt="" /></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Isckon Temple</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Located in the Rajajinagar area, ISKCON Temple is a revered shrine dedicated
+                to Lord Krishna. Apart from a religious shrine, ISKCON temple is a cultural complex
+                accommodating dedicated deities of Sri Sri Radha Krishnachandra, Sri Sri Krishna Balarama, Sri Sri
+                Nitai Gauranga, Sri Srinivasa Govinda and Sri Prahlada Narasimha.
+                <br /><br />
+                ISKCON Temple is known for its activities of engagement involving ardent devotees of Lord Krishna.
+                The temple enrols members for life and arranges programs in their community centres for Krishna
+                consciousness and awareness of the Lord. In addition, the ISKCON temple community conducts a wide
+                variety of
+                activities directed towards rediscovering spirituality on an individual level as well as creating a
+                spirit of harmony in the community.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-283px'}}><img className="images" src="https://upload.wikimedia.org/wikipedia/commons/1/11/ISKCON_Banglaore_Temple.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Meenakshi Temple</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Meenakshi Temple in Bangalore is dedicated to Lord Shiva and Goddess
+                Parvati. Lord Shiva is worshipped here as Sundareshwara and Ma Parvati as Meenakshi. The shrine is
+                located on Bannerghatta Road, 15 km from Bangalore.
+                <br /><br />
+                The temple is a beautiful temple with a beautiful sculpture which is a very old temple. The shrine
+                is very small and well maintained. The architecture of the Meenakshi Sundareshwar temple is typical
+                of temples in Tamil Nadu. At the entrance of the temple, we have the darshan of Dwajasthama and
+                Nandi. Then you can view the temple open hall. It has a beautiful sculpture of Shiva and Parvati and
+                of Hindu deities.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-242px'}}><img className="images" src="https://4.bp.blogspot.com/-IDBBsVHK2dc/WOThXl9TTuI/AAAAAAAASPE/Zo7dXpIrOu4bLh73iHFz0mA_O7KLzmBSgCLcB/s1600/madurai%2Btemple%2Bbangalore.jpg" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Big Bull Temple</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>The Bull Temple in Bangalore, also known as Nandi Temple, is famous for its
+                large statue of the sacred bull, Nandi. In fact, with a height of around 4.6 metres and a length of
+                about 6.1 metres, the idol of Nandi in this temple is said to be one of the biggest in the world.
+                This unique feature attracts many devotees and tourists to the place.
+                <br /><br />
+                Nandi, meaning ‘joy’ in Sanskrit, is the sacred bull according to Hindu beliefs. Though the Nandi
+                statue appears to be black in color, it was not really the case when it was built. The idol was
+                originally grey in color. But as devotees continuously applied charcoal and oil to the statue, it
+                blackened over the years.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-263px'}}><img className="images" src="https://www.holidify.com/images/cmsuploads/compressed/3560_20190222111237jpg" alt="" /></div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="card">
+          <div className="info-c2">
+            <div className="info2">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>Banashankari Temple</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>Banashankari Temple has located near Kanakapura Road in Southern Bangalore.
+                It is one of the most popular places of worship in Bangalore City. Sri Banashankari Devi is also
+                known as Shakambari. The Devotees have a strong belief in the goddess and fulfill desires for
+                prayers done in true sincerity.
+                <br /><br />The belief in the goddess is so strong and a huge number of devotees
+                visit this temple every day. In 1915, the temple was founded by Basappa Shetty, a devotee of Goddess
+                Banashankari. Banashankari Amma Temple is one of the very famous temples in Bangalore, not because
+                of the temple looks but because of the beliefs, surrounded by the temple.
+              </p>
+            </div>
+            <div className="pic2" style={{marginTop: '-263px'}}><img className="images" src="https://bangaloremirror.indiatimes.com/photo/55627072.cms" alt="" /></div>
+          </div>
+        </div><br /><br />
+        <br />
+        <div className="card">
+          <div className="info-c1">
+            <div className="info1">
+              <h1 style={{fontSize: '30px', textAlign: 'center'}}>St Mary's Basilica</h1>
+              <br />
+              <p style={{fontSize: '15px'}}>The remarkable interiors of the
+                church – with a vaulted ceiling supported by Corinthian pillars, splendid arches and stained-glass
+                windows would leave you absolutely wonderstruck. St Mary, also known as Our Lady of Health is said
+                to possess miraculous powers and draws thousands of devotees for the feast in September. In 1974 the
+                Pope elevated the church to the status of a Basilica.
+                <br /><br />
+                St Mary’s Basilica celebrates its annual feast on 8th September, the birthday of St
+                Mary.
+                St Mary’s Basilica is located in Shivaji Nagar, 5 kms from Bengaluru city centre (Majestic) and 34
+                kms from the Bengaluru International Airport. Cubbon Park Metro station is the closest metro (1.5
+                kms). Shivaji Nagar has excellent bus connectivity from all parts of Bengaluru.
+              </p>
+            </div>
+            <div className="pic1" style={{marginTop: '-285px'}}><img className="images" src="https://www.kindpng.com/picc/m/151-1512282_transparent-velankanni-matha-png-st-marys-basilica-bangalore.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+
+            </div>)
+        }
+      }
+      ReactDOM.render(<Container />, document.getElementById("mydiv"));
+    </script>
+    <br />
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+            KS, <br />
+            third semester students of CS Engineering branch, <br />
+            PES University, Bangalore <br />
+          </p>
+        </div>
+
+        <div class="box" style="margin-top: -12px">
+          <h3 style="margin-left: 110px">MENU</h3>
+          <div class="box1">
+            <a href="/">Home</a>
+            <a href="/things">Do & See</a>
+            <a href="/pub">Pub & Night Life</a>
+            <a href="/hotels">Restaurants</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/reach">How to Reach</a>
+          </div>
+          <br><br><br>
+          <div class="box2" style="margin-left: 200px; margin-top: -225px">
+            <a href="/cafe">Cafes & Dine-Ins</a>
+            <a href="/malls">Malls</a>
+            <a href="/historical">Historical</a>
+            <a href="/cafe">Cafes </a>
+            <a href="/travel">Travel Info</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="credit">
+        Created and managed by <span> Like Home Boys </span> | All Rights
+        Reserved!!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

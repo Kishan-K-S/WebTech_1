@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        complete responsive tour and travel agency website design tutorial
+    </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- header section starts  -->
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="/" class="logo"><span>i</span> &#10084 blr</a>
+
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/hotels">Do & See</a>
+            <a href="/pub">Pub&Night-Life</a>
+            <a href="/shopping">Shopping Spots</a>
+            <a href="/trek">Restaurants</a>
+            <a href="/travel">Malls</a>
+            <a href="/trek">Trekking Spots</a>
+            <a href="/feedback">Feedback</a>
+          </nav>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+            }
+
+            * {
+                box-sizing: border-box
+            }
+
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 400px;
+               
+            }
+
+            .form {
+                width: 100%;
+                max-width: 900px;
+                margin: 10px auto 30px;
+                background: grey;
+                padding: 60px;
+                border: solid 5px black;
+                border-radius: 40px;
+            }
+
+            .form h2 {
+                font-weight: 500;
+                text-align: center;
+                margin: 0 auto 15px;
+                padding: 0
+            }
+
+            .form label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 16px;
+                color: black
+            }
+
+            .form input[type=text],
+            .form input[type=email],
+            .form input[type=number] {
+                width: 100%;
+                height: 40px;
+                outline: none;
+                border: solid 1px #e8e8e8;
+                padding-left: 10px;
+                font-size: 15px;
+
+            }
+
+            .form input[type=text]:focus,
+            .form input[type=email]:focus,
+            .form input[type=number]:focus {
+                border: solid 1px black
+            }
+
+            .form input::placeholder,
+            .form textarea::placeholder {
+                color: silver;
+            }
+
+            .form textarea {
+                width: 100%;
+                height: 80px;
+                outline: none;
+                border: solid 1px #e8e8e8;
+                padding-left: 10px;
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .field {
+                margin-bottom: 20px;
+                /* font-size: 150%; */
+            }
+
+
+            .form textarea:focus {
+                border: solid 1px rgba(6, 107, 201, 0.4)
+            }
+
+            .form input[type=submit],
+            .form input[type=button] {
+                padding: 12px 30px;
+                outline: none;
+                border-radius: 20px;
+                background: #06c930;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                font-size: 18px;
+                letter-spacing: 1.2px;
+            }
+
+            .form input[type=submit]:hover,
+            .form input[type=button]:hover {
+                background: #d4009f
+            }
+
+            .main {
+                width: 100%;
+                max-width: 900px;
+                margin: auto;
+            }
+
+            .header {
+                width: 100%;
+                min-height: 100px;
+                background: #157AE4;
+                color: #fff;
+                padding: 20px;
+                margin-top: 15px;
+                border-radius: 60px;
+            }
+
+            .header h1 {
+                font-weight: 500;
+            }
+
+            .buttons {
+                width: 100%;
+                min-height: 50px;
+                margin: 15px 0;
+            }
+
+            .buttons li {
+                list-style: none;
+                display: inline-block;
+                margin-right: 30px;
+            }
+
+            button {
+                padding: 12px 30px;
+                outline: none;
+                border-radius: 2px;
+                background: yellowgreen;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            button:hover {
+                opacity: 0.8;
+            }
+        </style>
+    </header>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="card">
+        <section class="packages" id="packages">
+            <h1 class="heading">
+                <span>S</span>
+                <span>i</span>
+                <span>g</span>
+                <span>n</span>
+                <span>-</span>
+                <span>U</span>
+                <span>p</span>
+                <span class="space"></span>
+                <span>F</span>
+                <span>o</span>
+                <span>r</span>
+                <span>m</span>
+
+            </h1>
+            <br><br><br><br>
+            <div>
+                <div class="form">
+                    <form method="POST" action="http://localhost:3000/signup">
+                        <div>
+                            <div class="field" style="margin-right: 400px;">
+                                <label class="label">First Name</label>
+                                <input type="text" id="first_name" name="first_name"
+                                    placeholder="What's your First Name?" style="border-radius: 5px;">
+                                <span id="first_name1" style="color:red;"></span>
+                            </div>
+                            <div class="field" style="margin-left: 400px; margin-top: -86px;">
+                                <label class="label">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" placeholder="What's your Last Name?"
+                                    style="border-radius: 5px;">
+                                <span id="last_name1" style="color:red;"></span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email Id</label>
+                            <input type="email" name="email" id="email" placeholder="Type your Email Id"
+                                style="border-radius: 5px;">
+                            <span id="email1" style="color:red;"></span>
+                        </div>
+                        <div class="field">
+                            <label class="label">Phone Number</label>
+                            <input type="text" name="phone" id="phone" placeholder="Type Phone Number"
+                                style="border-radius: 5px;">
+                            <span id="phone1" style="color:red;"></span>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Place of Living</label>
+                            <input type="text" name="place" id="place" placeholder="Type Place"
+                                style="border-radius: 5px;">
+                            <span id="place1" style="color:red;"></span>
+                        </div>
+
+
+
+                        <div class="field">
+                            <input type="submit" id="submitting" value="SUBMIT"
+                                style="margin-left: 290px;border-radius: 10px;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        
+    </script>
+    <script>
+        $("#remove_css").click(function () {
+            $("#header").removeClass("header");
+            $("#prg").removeClass("prg");
+        });
+        $(document).ready(function () {
+            $("#t_header").click(function () {
+                $("#header").fadeToggle();
+            });
+        });
+        function myFunction() {
+            var x = document.createElement("VIDEO");
+            if (x.canPlayType(".mp4")) {
+            } else {
+                x.setAttribute("src", "https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4");
+                x.setAttribute("src", "https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4");
+            }
+            x.setAttribute("width", "400");
+            x.setAttribute("height", "350");
+            x.setAttribute("controls", "controls");
+            x.setAttribute("style", "margin-left:500px");
+            document.body.appendChild(x);
+        }
+    </script>
+    </div>
+
+
+
+
+
+
+    <!-- footer section  -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>
+                    This site is created and managed by Joel Dsouza, Kiran SM and Kishan
+                    KS, <br />
+                    third semester students of CS Engineering branch, <br />
+                    PES University, Bangalore <br />
+                </p>
+            </div>
+            <div class="box" style="margin-top: -12px">
+                <h3 style="margin-left: 110px">MENU</h3>
+                <div class="box1">
+                  <a href="/">Home</a>
+                  <a href="/things">Do & See</a>
+                  <a href="/pub">Pub & Night Life</a>
+                  <a href="/hotels">Restaurants</a>
+                  <a href="/trek">Trekking Spots</a>
+                  <a href="/reach">How to Reach</a>
+                </div>
+                <br><br><br>
+                <div class="box2" style="margin-left: 200px; margin-top: -225px">
+                  <a href="/cafe">Cafes & Dine-Ins</a>
+                  <a href="/malls">Malls</a>
+                  <a href="/historical">Historical</a>
+                  <a href="/cafe">Cafes </a>
+                  <a href="/travel">Travel Info</a>
+                </div>
+              </div>
+              
+        </div>
+
+        <h1 class="credit">
+            Created and managed by <span> Like Home Boys </span> | All Rights
+            Reserved!!
+        </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
